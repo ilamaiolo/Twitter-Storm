@@ -16,7 +16,7 @@ public class FourSquareUtility{
 
 =======
 		
-		FoursquareApi foursquareApi = new FoursquareApi("X0P3PFF0IQ1DVWJQZVARXQXACIZC22VGRLQ3STKY3DMG1SHK", "RBV5S2B40HVXZHRF2MML255XFTRPVCUBSH2VB3QHBQANZU4V", "http://ilariomaiolo.it");
+		FoursquareApi foursquareApi = new FoursquareApi("x", "x", "http://x.it");
 		
 >>>>>>> commit
 		String nationality = "";
@@ -94,7 +94,7 @@ public class FourSquareUtility{
 		FoursquareApi foursquareApi = new FoursquareApi("x", "x", "http://ilariomaiolo.it");
 =======
 		
-		FoursquareApi foursquareApi = new FoursquareApi("X0P3PFF0IQ1DVWJQZVARXQXACIZC22VGRLQ3STKY3DMG1SHK", "RBV5S2B40HVXZHRF2MML255XFTRPVCUBSH2VB3QHBQANZU4V", "http://ilariomaiolo.it");
+		FoursquareApi foursquareApi = new FoursquareApi("x", "x", "http://x.it");
 >>>>>>> commit
 		fi.foyt.foursquare.api.Result<VenuesSearchResult> result = foursquareApi.venuesSearch(ll, null, null, null, null, null, null, null, null, null, null);
 		if (result.getMeta().getCode() == 200) {
